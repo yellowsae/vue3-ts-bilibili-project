@@ -22,7 +22,7 @@
   </router-link>
 </template>
 <script lang="ts" setup>
-import { defineProps, PropType } from 'vue';
+import { PropType } from 'vue';
 
 // 定义了上层组件传过来的数据
 interface IVideoItem {
@@ -36,7 +36,7 @@ interface IVideoItem {
 }
 
 // 接收数据， 使用 video 接收
-const props = defineProps({
+defineProps({
   video: {
     // Object 对象为 IVideoItem 接口格式
     type: Object as PropType<IVideoItem>,
