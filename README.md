@@ -14,3 +14,8 @@
 
 ## 技术栈
 
+- Vue3 + TypeScript + Vite
+- Axios
+- Vue-router
+- Vant3
+- Mockjs
